@@ -3,6 +3,9 @@ classdef simulation
     properties
         simtype
         simname
+    end
+    
+    properties (Dependent=true)
         int
     end
     
